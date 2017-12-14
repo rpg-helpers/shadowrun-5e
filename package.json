@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "private": true,
   "dependencies": {
+    "firebase": "4.8.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
@@ -12,7 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "deploy": "firebase deploy"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

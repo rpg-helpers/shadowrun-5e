@@ -68,6 +68,7 @@ typings/
 # production
 /build
 /dist
+/src/config
 
 # misc
 .DS_Store
